@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82E16B27-0174-499B-BFEB-169FE687EFA2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestExec</RootNamespace>
+    <AssemblyName>TestExec</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\TestExec.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestExec.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CategoryDBEngine\CategoryDBEngine.csproj">
+      <Project>{6779fe19-9237-4efe-968c-51a0ec51609a}</Project>
+      <Name>CategoryDBEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBElementTest\DBElementTest.csproj">
+      <Project>{366a04ba-32c8-4bd0-a69a-643fb005164e}</Project>
+      <Name>DBElementTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBElement\DBElement.csproj">
+      <Project>{1d9fdb3e-8c03-493f-8d76-0443b298e854}</Project>
+      <Name>DBElement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBEngineTest\DBEngineTest.csproj">
+      <Project>{b7c08b4f-0fe5-438a-8d5d-e68a8ccabfff}</Project>
+      <Name>DBEngineTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBEngine\DBEngine.csproj">
+      <Project>{9f039b4c-22c7-488b-9e2f-b7224cc46a2d}</Project>
+      <Name>DBEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBExtensions\DBExtensions.csproj">
+      <Project>{a6ecc225-6634-474e-97f6-54fb2f758c99}</Project>
+      <Name>DBExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBFactory\DBFactory.csproj">
+      <Project>{dada8c4d-6238-462d-8d68-800cafabbaf4}</Project>
+      <Name>DBFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Display\Display.csproj">
+      <Project>{84fec583-d643-4465-ada0-c34c9bf8c624}</Project>
+      <Name>Display</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ItemEditor\ItemEditor.csproj">
+      <Project>{d3a56126-1dca-49cf-a9be-0ca770431f69}</Project>
+      <Name>ItemEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ItemFactory\ItemFactory.csproj">
+      <Project>{7557cb9e-61c8-4651-9e20-9a5009ae863f}</Project>
+      <Name>ItemFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PayloadWrapper\PayloadWrapper.csproj">
+      <Project>{6830283e-0491-4903-90c6-e2ffeadb37fc}</Project>
+      <Name>PayloadWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersistEngine\PersistEngine.csproj">
+      <Project>{a1e2dd7f-28fe-48cc-b7e1-80cb34153a97}</Project>
+      <Name>PersistEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QueryEngine\QueryEngine.csproj">
+      <Project>{2e3a9dfb-6666-422b-a264-6b4e0f9718df}</Project>
+      <Name>QueryEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RestoreEngine\RestoreEngine.csproj">
+      <Project>{d8961211-9b18-4273-b747-f0709dc74e56}</Project>
+      <Name>RestoreEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Scheduler\Scheduler.csproj">
+      <Project>{99a2b5d5-3751-4d1c-ad58-329ba6380807}</Project>
+      <Name>Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilityExtensions\UtilityExtensions.csproj">
+      <Project>{7092ac78-846b-424b-9cc3-94e2cb2d3c25}</Project>
+      <Name>UtilityExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

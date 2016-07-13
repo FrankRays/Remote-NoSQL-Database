@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<queryFormat>
+	<queries>
+		<query>
+			<numberOfReq>100</numberOfReq>
+			<queryType>Insert</queryType>
+			<querySubType/>
+			<keytype>int</keytype>
+  			<payloadtype>string</payloadtype>
+		</query>
+		<query>
+			<numberOfReq>100</numberOfReq>
+			<queryType>Insert</queryType>
+			<querySubType/>
+			<keytype>string</keytype>
+  			<payloadtype>List of strings</payloadtype>
+		</query>
+		<query>
+			<numberOfReq>30</numberOfReq>
+			<queryType>Edit</queryType>
+			<querySubType/>
+			<keytype>int</keytype>
+  			<payloadtype>string</payloadtype>
+		</query>
+		<query>
+			<numberOfReq>30</numberOfReq>
+			<queryType>Delete</queryType>
+			<querySubType/>
+			<keytype>int</keytype>
+  			<payloadtype>string</payloadtype>
+		</query>
+		<query>
+			<numberOfReq>30</numberOfReq>
+			<queryType>Edit</queryType>
+			<querySubType/>
+			<keytype>string</keytype>
+  			<payloadtype>List of strings</payloadtype>
+		</query>
+		<query>
+			<numberOfReq>10</numberOfReq>
+			<queryType>Delete</queryType>
+			<querySubType/>
+			<keytype>string</keytype>
+  			<payloadtype>List of strings</payloadtype>
+		</query>
+	</queries>
+</queryFormat>

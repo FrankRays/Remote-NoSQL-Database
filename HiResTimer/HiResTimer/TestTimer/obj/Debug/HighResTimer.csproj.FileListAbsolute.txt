@@ -1,0 +1,6 @@
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\bin\Debug\TestTimer.exe.config
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\bin\Debug\TestTimer.exe
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\bin\Debug\TestTimer.pdb
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\obj\Debug\TestTimer.exe
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\obj\Debug\TestTimer.pdb
+E:\SoftwareModellingAndAnalysis\HiResTimer\HiResTimer\TestTimer\obj\Debug\HighResTimer.csprojResolveAssemblyReference.cache

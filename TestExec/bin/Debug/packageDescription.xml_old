@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<packages>
+<package>
+	<name>
+		DBElement
+	</name>
+	<dependencies>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		DBElementTest
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		DBEngine
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		DBEngineTest
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			DBFactory
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		DBExtensions
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBFactory
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		DBFactory
+	</name>
+	<dependencies>
+		<dependent>
+			DBEngine
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		Display
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBFactory
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		ItemEditor
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBElementTest
+		</dependent>
+		<dependent>
+			DBEngineTest
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			Display
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		PersistEngine
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		QueryEngine
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		RestoreEngine
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBElementTest
+		</dependent>
+		<dependent>
+			DBEngineTest
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			Display
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+		<dependent>
+			ItemEditor
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		Scheduler
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBElementTest
+		</dependent>
+		<dependent>
+			DBEngineTest
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			Display
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+		<dependent>
+			ItemEditor
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		TestExec
+	</name>
+	<dependencies>
+		<dependent>
+			DBElement
+		</dependent>
+		<dependent>
+			DBEngine
+		</dependent>
+		<dependent>
+			DBElementTest
+		</dependent>
+		<dependent>
+			DBEngineTest
+		</dependent>
+		<dependent>
+			DBExtensions
+		</dependent>
+		<dependent>
+			Display
+		</dependent>
+		<dependent>
+			DBFactory
+		</dependent>
+		<dependent>
+			ItemEditor
+		</dependent>
+		<dependent>
+			PersistEngine
+		</dependent>
+		<dependent>
+			QueryEngine
+		</dependent>
+		<dependent>
+			RestoreEngine
+		</dependent>
+		<dependent>
+			Scheduler
+		</dependent>
+		<dependent>
+			UtilityExtensions
+		</dependent>
+	</dependencies>
+</package>
+<package>
+	<name>
+		UtilityExtensions
+	</name>
+	<dependencies>
+		<dependent></dependent>
+	</dependencies>
+</package>
+</packages>

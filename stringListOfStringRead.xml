@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>string</keytype>
+  <payloadtype>List of strings</payloadtype>
+  <node>
+    <key>New element</key>
+    <element>
+      <name>String Element - Name</name>
+      <desc>String Element - Desc</desc>
+      <timestamp>10/4/2015 6:14:36 PM</timestamp>
+      <payload>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+      </payload>
+      <children>
+        <key>44</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>Another new element</key>
+    <element>
+      <name>Scooty</name>
+      <desc>Bajaj</desc>
+      <timestamp>10/7/2015 6:14:36 PM</timestamp>
+      <payload>
+        <item>Bajaj Chetak 1</item>
+        <item>Bajaj Chetak 2</item>
+        <item>Bajaj Chetak 3</item>
+      </payload>
+      <children/>
+    </element>
+  </node>
+</noSqlInput>

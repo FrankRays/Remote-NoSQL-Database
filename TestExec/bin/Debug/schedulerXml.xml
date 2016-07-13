@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>int</keytype>
+  <payloadtype>string</payloadtype>
+  <node>
+    <key>1</key>
+    <element>
+      <name>UPDATED element - complete object</name>
+      <desc>UPDATED desc - complete object</desc>
+      <timestamp>10/13/2050 12:00:00 AM</timestamp>
+      <payload>UPDATED elem's payload - complete object</payload>
+      <children>
+        <key>10</key>
+        <key>22</key>
+        <key>33</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>5</key>
+    <element>
+      <name>Audi</name>
+      <desc>Q7</desc>
+      <timestamp>10/4/2015 6:14:36 PM</timestamp>
+      <payload>updated elems payload 22</payload>
+      <children />
+    </element>
+  </node>
+  <node>
+    <key>3</key>
+    <element>
+      <name>Rohit</name>
+      <desc>Sharma</desc>
+      <timestamp>10/9/2015 11:39:33 PM</timestamp>
+      <payload>This is payload</payload>
+      <children>
+        <key>2</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>4</key>
+    <element>
+      <name>Matt</name>
+      <desc>Demon</desc>
+      <timestamp>10/9/2015 11:39:34 PM</timestamp>
+      <payload>The Martian</payload>
+      <children>
+        <key>3</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>6</key>
+    <element>
+      <name>Hamara</name>
+      <desc>Bajaj</desc>
+      <timestamp>10/4/2015 6:14:36 PM</timestamp>
+      <payload>Bajaj Chetak</payload>
+      <children />
+    </element>
+  </node>
+</noSqlInput>

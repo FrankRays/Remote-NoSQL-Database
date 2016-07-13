@@ -1,0 +1,14 @@
+C:\su\CSE681\code\HiResTimerInterop\obj\Debug\TestTimer.exe
+C:\su\CSE681\code\HiResTimerInterop\obj\Debug\TestTimer.pdb
+C:\su\CSE681\code\HiResTimerInterop\bin\Debug\TestTimer.exe
+C:\su\CSE681\code\HiResTimerInterop\bin\Debug\TestTimer.pdb
+C:\su\CSE681\code\HiResTimerInterop\obj\Debug\ResolveAssemblyReference.cache
+E:\SoftwareModellingAndAnalysis\HiResTimer\bin\Debug\TestTimer.exe.config
+E:\SoftwareModellingAndAnalysis\HiResTimer\obj\Debug\TestTimer.exe
+E:\SoftwareModellingAndAnalysis\HiResTimer\obj\Debug\TestTimer.pdb
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\bin\Debug\TestTimer.exe.config
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\bin\Debug\TestTimer.exe
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\bin\Debug\TestTimer.pdb
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\obj\Debug\TestTimer.csprojResolveAssemblyReference.cache
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\obj\Debug\TestTimer.exe
+E:\SoftwareModellingAndAnalysis\Project4\HiResTimer\obj\Debug\TestTimer.pdb

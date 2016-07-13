@@ -1,0 +1,9 @@
+Event logged at: 09/12/2015 11:21 PM
+It's a logged messaged. Event invoked by Rohit.
+Event logged at: 09/12/2015 11:22 PM
+It's a logged messaged. Event invoked by Rohit.
+It's a logged messaged. Event invoked by Rohit.
+Previous Event logged at: 09/12/2015 11:23 PM
+----------Logging started----------
+It's a logged messaged. Event invoked by Rohit.
+Previous Event logged at: 09/12/2015 11:23 PM

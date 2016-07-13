@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>string</keytype>
+  <payloadtype>list of strings</payloadtype>
+  <node>
+    <key>8161</key>
+    <element>
+      <name>Ramesh</name>
+      <desc />
+      <timestamp>11/24/2015 10:31:00 AM</timestamp>
+      <payload>
+        <item />
+      </payload>
+      <children>
+        <key />
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>8128</key>
+    <element>
+      <name>Suresh</name>
+      <desc>Random</desc>
+      <timestamp>11/24/2015 10:30:55 AM</timestamp>
+      <payload>
+        <item>ListPayload5, ListPayload6</item>
+      </payload>
+      <children>
+        <key>8128</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>2240</key>
+    <element>
+      <name>Jignesh</name>
+      <desc />
+      <timestamp>11/24/2015 10:31:01 AM</timestamp>
+      <payload>
+        <item />
+      </payload>
+      <children>
+        <key />
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>7223</key>
+    <element>
+      <name>Suresh</name>
+      <desc>HogaKoi</desc>
+      <timestamp>11/24/2015 10:30:56 AM</timestamp>
+      <payload>
+        <item>ListPayload5, ListPayload6</item>
+      </payload>
+      <children>
+        <key>8161</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>7746</key>
+    <element>
+      <name>Parvesh</name>
+      <desc>Random</desc>
+      <timestamp>11/24/2015 10:30:56 AM</timestamp>
+      <payload>
+        <item>ListPayload1, ListPayload2</item>
+      </payload>
+      <children>
+        <key>2240</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>9350</key>
+    <element>
+      <name>Ramesh</name>
+      <desc>Colleague</desc>
+      <timestamp>11/24/2015 10:30:56 AM</timestamp>
+      <payload>
+        <item>ListPayload3, ListPayload4</item>
+      </payload>
+      <children>
+        <key>7746</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>6493</key>
+    <element>
+      <name>Parvesh</name>
+      <desc>Random</desc>
+      <timestamp>11/24/2015 10:30:57 AM</timestamp>
+      <payload>
+        <item>ListPayload1, ListPayload2</item>
+      </payload>
+      <children>
+        <key>8161</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>6460</key>
+    <element>
+      <name>Naresh</name>
+      <desc>HogaKoi</desc>
+      <timestamp>11/24/2015 10:30:57 AM</timestamp>
+      <payload>
+        <item>ListPayload3, ListPayload4</item>
+      </payload>
+      <children>
+        <key>6460</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>8619</key>
+    <element>
+      <name>Naresh</name>
+      <desc>Colleague</desc>
+      <timestamp>11/24/2015 10:30:57 AM</timestamp>
+      <payload>
+        <item>ListPayload5, ListPayload6</item>
+      </payload>
+      <children>
+        <key>6460</key>
+      </children>
+    </element>
+  </node>
+</noSqlInput>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>string</keytype>
+  <payloadtype>list of strings</payloadtype>
+  <node>
+    <key>My Friend</key>
+    <element>
+      <name>Afzal</name>
+      <desc>Khan</desc>
+      <timestamp>10/9/2015 11:39:33 PM</timestamp>
+      <payload>
+        <item>Best</item>
+        <item>Friend</item>
+      </payload>
+      <children>
+        <key>Mahesh</key>
+        <key>Ramesh</key>
+        <key>Suresh</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>The Epic</key>
+    <element>
+      <name>Ramayana</name>
+      <desc>Mahabharata</desc>
+      <timestamp>10/9/2015 11:39:34 PM</timestamp>
+      <payload>
+        <item>Warriors</item>
+        <item>Clan</item>
+      </payload>
+      <children>
+        <key>Ram</key>
+        <key>Arjun</key>
+        <key>Krishna</key>
+      </children>
+    </element>
+  </node>
+</noSqlInput>

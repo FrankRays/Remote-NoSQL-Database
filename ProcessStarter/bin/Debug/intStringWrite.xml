@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>int</keytype>
+  <payloadtype>string</payloadtype>
+  <node>
+    <key>1024</key>
+    <element>
+      <name>Suresh</name>
+      <desc>Random</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload1</payload>
+      <children>
+        <key>1024</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>5692</key>
+    <element>
+      <name>Naresh</name>
+      <desc>Acquaintence</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload4</payload>
+      <children>
+        <key>1024</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>6215</key>
+    <element>
+      <name>Ramesh</name>
+      <desc>Colleague</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload5</payload>
+      <children>
+        <key>6215</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>7295</key>
+    <element>
+      <name>Naresh</name>
+      <desc>Friend</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload1</payload>
+      <children>
+        <key>1548</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>3151</key>
+    <element>
+      <name>Parvesh</name>
+      <desc>Friend</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload5</payload>
+      <children>
+        <key>1548</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>7819</key>
+    <element>
+      <name>Suresh</name>
+      <desc>HogaKoi</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload2</payload>
+      <children>
+        <key>1024</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>7262</key>
+    <element>
+      <name>Suresh</name>
+      <desc>Friend</desc>
+      <timestamp>11/23/2015 10:48:43 PM</timestamp>
+      <payload>Payload4</payload>
+      <children>
+        <key>1548</key>
+      </children>
+    </element>
+  </node>
+</noSqlInput>

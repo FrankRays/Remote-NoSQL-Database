@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<queryFormat>
+	<numberOfReq>30</numberOfReq>
+	<queries>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Value by Key</querySubType>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node>
+    			<key>392</key>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Children by Key</querySubType>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node>
+    			<key>2689</key>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Key by Metadata</querySubType>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node>
+    			<pattern>Ra</pattern>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Key by Pattern</querySubType>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node>
+    			<pattern>.*68.*</pattern>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Key by Category</querySubType>
+			<keytype>int</keytype>
+  			<payloadtype>string</payloadtype>
+			<node>
+    			<category>Category1</category>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Search</queryType>
+			<querySubType>Key by Timestamp</querySubType>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node>
+    			<fromDate>10/23/2015 11:47:01 PM</fromDate>
+    			<toDate>10/28/2015 11:47:01 PM</toDate>
+    			<element/>
+  			</node>
+		</query>
+		<query>
+			<queryType>Persist</queryType>
+			<querySubType/>
+			<keytype>string</keytype>
+  			<payloadtype>list of strings</payloadtype>
+			<node/>
+		</query>
+		<query>
+			<queryType>Restore</queryType>
+			<querySubType/>
+			<keytype>int</keytype>
+  			<payloadtype>string</payloadtype>
+			<node/>
+		</query>
+	</queries>
+</queryFormat>

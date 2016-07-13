@@ -1,0 +1,6 @@
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\bin\Debug\Prototype.exe.config
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\bin\Debug\Prototype.exe
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\bin\Debug\Prototype.pdb
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\obj\Debug\Prototype.exe
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\obj\Debug\Prototype.pdb
+E:\SoftwareModellingAndAnalysis\Project4\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache

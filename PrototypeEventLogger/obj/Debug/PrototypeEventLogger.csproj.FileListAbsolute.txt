@@ -1,0 +1,6 @@
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\bin\Debug\PrototypeEventLogger.exe.config
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\bin\Debug\PrototypeEventLogger.exe
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\bin\Debug\PrototypeEventLogger.pdb
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\obj\Debug\PrototypeEventLogger.csprojResolveAssemblyReference.cache
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\obj\Debug\PrototypeEventLogger.exe
+E:\SoftwareModellingAndAnalysis\Project4\PrototypeEventLogger\obj\Debug\PrototypeEventLogger.pdb

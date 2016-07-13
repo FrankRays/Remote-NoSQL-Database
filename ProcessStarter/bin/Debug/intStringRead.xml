@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--XML document of type int-string-->
+<noSqlInput>
+  <keytype>int</keytype>
+  <payloadtype>string</payloadtype>
+  <node>
+    <key>5</key>
+    <element>
+      <name>Audi</name>
+      <desc>Q7</desc>
+      <timestamp>10/4/2015 6:14:36 PM</timestamp>
+      <payload>updated elems payload 22</payload>
+      <children>
+        <key>6</key>
+      </children>
+    </element>
+  </node>
+  <node>
+    <key>6</key>
+    <element>
+      <name>Hamara</name>
+      <desc>Bajaj</desc>
+      <timestamp>10/4/2015 6:14:36 PM</timestamp>
+      <payload>Bajaj Chetak</payload>
+      <children/>
+    </element>
+  </node>
+</noSqlInput>
